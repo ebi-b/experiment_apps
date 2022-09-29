@@ -1,0 +1,17 @@
+﻿<Window x:Class="eyetracker_Runner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eyetracker_Runner"
+        mc:Ignorable="d"
+        Title="Eye Tracker" Height="450" Width="800">
+    <Grid x:Name="Eye_Tracker">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="start_button" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="173" Margin="292,73,0,0" Height="68" Click="Start_Click"/>
+        <Button Content="Hide" HorizontalAlignment="Left" Height="70" Margin="292,246,0,0" VerticalAlignment="Top" Width="173" Click="Hide_Click"/>
+
+    </Grid>
+</Window>
